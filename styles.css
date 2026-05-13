@@ -105,6 +105,39 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Hygiene Rating Section */
+.hygiene-rating {
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e8eaed 100%);
+    text-align: center;
+    border-top: 4px solid var(--primary-red);
+    border-bottom: 4px solid var(--primary-red);
+}
+
+.hygiene-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hygiene-container h2 {
+    font-size: 2.5rem;
+    color: var(--primary-red);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.hygiene-container p {
+    font-size: 1.1rem;
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+}
+
+#fsa-badge {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+}
+
 /* About Section */
 .about {
     padding: 4rem 2rem;
@@ -281,7 +314,8 @@ body {
 
     .about-container h2,
     .products-container h2,
-    .contact-container h2 {
+    .contact-container h2,
+    .hygiene-container h2 {
         font-size: 2rem;
     }
 
@@ -316,5 +350,9 @@ body {
 
     .logo h1 {
         font-size: 1.5rem;
+    }
+
+    .hygiene-container p {
+        font-size: 1rem;
     }
 }
